@@ -35,7 +35,7 @@ or open System Settings → Privacy & Security and click **Open Anyway**. That
 clears the "downloaded from the internet" flag. Worth looking the command up
 rather than taking my word for it.
 
-**Apple silicon only.** macOS 14 or later.
+Universal build, macOS 14 or later. Only tested on Apple silicon.
 
 ## Permissions
 
@@ -58,7 +58,9 @@ The source is in a private repo. This one holds the builds.
 
 Lunette began from [Atoll](https://github.com/rutmehta/Atoll) by Rut Mehta,
 MIT licensed. The original copyright and licence are kept in `LICENSE` here and
-in the source. The media layer uses the MIT-licensed `mediaremote-adapter`.
+in the source. The media layer uses the MIT-licensed `mediaremote-adapter`, and
+the lock screen uses the MIT-licensed
+[SkyLightWindow](https://github.com/Lakr233/SkyLightWindow).
 
 ## Bugs
 
