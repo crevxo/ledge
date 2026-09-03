@@ -1,4 +1,4 @@
-# Lunette
+# Ledge
 
 A notch hub for Apple silicon Macs. Media, calendar, files, and a set of small
 tools live in the notch and stay out of the way until you hover it.
@@ -25,11 +25,11 @@ the system until you switch it on.
 
 ## Installing
 
-Download the DMG below, open it, drag Lunette to Applications.
+Download the DMG below, open it, drag Ledge to Applications.
 
 The app is signed but not notarized, so the first launch is blocked. Either run
 
-    xattr -dr com.apple.quarantine /Applications/Lunette.app
+    xattr -dr com.apple.quarantine /Applications/Ledge.app
 
 or open System Settings → Privacy & Security and click **Open Anyway**. That
 clears the "downloaded from the internet" flag. Worth looking the command up
@@ -46,7 +46,7 @@ them and the rest still works.
 
 ## Updates
 
-Lunette checks this repository when it opens and asks before downloading or
+Ledge checks this repository when it opens and asks before downloading or
 installing anything. It verifies the published SHA-256 of the download before
 it replaces the app.
 
@@ -56,7 +56,7 @@ The source is in a private repo. This one holds the builds.
 
 ## Credits
 
-Lunette began from [Atoll](https://github.com/rutmehta/Atoll) by Rut Mehta,
+Ledge began from [Atoll](https://github.com/rutmehta/Atoll) by Rut Mehta,
 MIT licensed. The original copyright and licence are kept in `LICENSE` here and
 in the source. The media layer uses the MIT-licensed `mediaremote-adapter`, and
 the lock screen uses the MIT-licensed
