@@ -58,9 +58,7 @@ The source is in a private repo. This one holds the builds.
 
 Ledge began from [Atoll](https://github.com/rutmehta/Atoll) by Rut Mehta,
 MIT licensed. The original copyright and licence are kept in `LICENSE` here and
-in the source. The media layer uses the MIT-licensed `mediaremote-adapter`, and
-the lock screen uses the MIT-licensed
-[SkyLightWindow](https://github.com/Lakr233/SkyLightWindow).
+in the source. The media layer uses the MIT-licensed `mediaremote-adapter`.
 
 ## Bugs
 
