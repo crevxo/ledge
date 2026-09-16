@@ -1,27 +1,30 @@
 # Ledge
 
-A notch hub for Apple silicon Macs. Media, calendar, files, and a set of small
-tools live in the notch and stay out of the way until you hover it.
+The Dynamic Island, for the notch on Apple silicon Macs. Music and whatever
+else is going on show up in the notch, and hovering it expands whatever it is
+showing.
 
 ## What it does
 
-- **Now playing** with artwork, seek, volume, shuffle and repeat, synced
-  lyrics, and a spectrum meter driven by real system audio.
-- **Live activity** that wraps around the cutout while a track plays, the way
-  the Dynamic Island does. Battery, charging and Bluetooth events surface the
-  same way.
-- **Calendar** for the day, with per-calendar filtering and event creation
-  without leaving the notch.
-- **Shelf** for files, links, and text — drop, stack, Quick Look, drag back out.
-- **Tools:** timers, stopwatch, notes, to-dos, Shortcuts, camera mirror,
-  clipboard history, Reminders, weather, system stats, keep awake.
-- **Volume and brightness HUD** replacement, if you want it in the notch
-  instead of the middle of your screen.
-- Hover, click, a hotkey, or trackpad gestures to open. ⌃⌥K for the command
-  palette.
+- **Now playing** in the notch while a track plays: artwork on one side, a
+  waveform on the other. Hover for the full player with seek, volume, shuffle,
+  repeat, synced lyrics, and a waveform driven by real system audio.
+- **Calls and recordings.** When an app uses the microphone or camera, the
+  notch shows which one and for how long, in the same orange and green as the
+  system privacy dots.
+- **Downloads and AirDrop** with a progress ring, and a short "Downloaded"
+  when they finish. Hover for file sizes and Show in Finder. Safari, Finder
+  copies and AirDrop report progress; Chrome does not, so its downloads are not
+  shown.
+- **Two at once.** The more important activity takes the notch and the other
+  becomes a small circle beside it. Click the circle to swap them.
+- **Alerts** that take the notch over for a moment: track changes, charging,
+  low battery and Low Power Mode, AirPods and other Bluetooth devices
+  connecting (with AirPods battery levels), and Caps Lock.
+- **Volume and brightness** in the notch instead of the middle of the screen,
+  if you want it.
 
-Everything past the basics is off by default. Nothing runs a timer or watches
-the system until you switch it on.
+Every activity can be turned off separately in Settings → Live Activities.
 
 ## Installing
 
@@ -39,10 +42,14 @@ Universal build, macOS 14 or later. Only tested on Apple silicon.
 
 ## Permissions
 
-Asked for only when you turn on the feature that needs them: Calendar,
-Reminders, Camera for the mirror, Bluetooth for device events, Accessibility
-for the media-key HUD, and audio capture for the live waveform. Decline any of
-them and the rest still works.
+Asked for only when a feature needs them: Accessibility for the media keys and
+Caps Lock, audio capture for the live waveform, Automation for Spotify and
+Music, Bluetooth for device alerts, and your Downloads folder for the cover art
+inside local music files. Decline any of them and the rest still works.
+
+Microphone and camera activity needs no permission. Ledge only reads whether an
+app is recording, the same information that drives the system privacy dots, and
+never the audio or video itself.
 
 ## Updates
 
