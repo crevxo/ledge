@@ -9,18 +9,19 @@ showing.
 - **Now playing** in the notch while a track plays: artwork on one side, a
   waveform on the other. Hover for the full player with seek, volume, shuffle,
   repeat, synced lyrics, and a waveform driven by real system audio.
-- **Calls and recordings.** When an app uses the microphone or camera, the
-  notch shows which one and for how long, in the same orange and green as the
-  system privacy dots.
+- **Calls and recordings.** When an app uses the microphone, the notch shows
+  which one and for how long. Camera use shows too, in the same orange and
+  green as the system privacy dots.
 - **Downloads and AirDrop** with a progress ring, and a short "Downloaded"
   when they finish. Hover for file sizes and Show in Finder. Safari, Finder
   copies and AirDrop report progress; Chrome does not, so its downloads are not
   shown.
 - **Two at once.** The more important activity takes the notch and the other
   becomes a small circle beside it. Click the circle to swap them.
-- **Alerts** that take the notch over for a moment: track changes, charging,
-  low battery and Low Power Mode, AirPods and other Bluetooth devices
-  connecting (with AirPods battery levels), and Caps Lock.
+- **Alerts** for song changes, charging, low battery and Low Power Mode,
+  AirPods and other Bluetooth devices connecting (with AirPods battery levels),
+  Caps Lock, and finished downloads. They drop out of the notch as Liquid Glass
+  pills, or appear inside the notch if you prefer.
 - **Volume and brightness** in the notch instead of the middle of the screen,
   if you want it.
 
